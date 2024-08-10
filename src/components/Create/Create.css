@@ -1,0 +1,36 @@
+.create h3 {
+    display: flex;
+    justify-content: center;
+    padding: 1em auto;
+  }
+  .create form {
+    margin: 0.5em auto;
+    display: block;
+    max-width: 400px;
+    border: 3px solid gray;
+    place-content: center;
+    padding: 1.5em 1.5em;
+  }
+  .create form input[type=text] {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  .create form input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    margin-top: 0.5em;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  .create form input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  

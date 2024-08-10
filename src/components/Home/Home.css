@@ -1,0 +1,29 @@
+.homePage {
+    display: grid;
+    max-width: 90%;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap:2em;
+    margin-left: 5em;
+    padding-bottom: 2em;
+}
+.site-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: italic;
+    color: blueviolet;
+    padding-top: 1em;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto ;
+}
+.home-title {
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1em;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto ;
+}
+

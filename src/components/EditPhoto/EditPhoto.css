@@ -1,0 +1,33 @@
+.edit h2 {
+    display: flex;
+    justify-content: center;
+    padding: 1em auto;
+  }
+  .edit {
+    margin: 0.5em auto;
+    display: block;
+    max-width: 400px;
+    border: 3px solid gray;
+    place-content: center;
+    padding: 1.5em 1.5em;
+  }
+  .edit input[type=text] {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  .edit input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    margin-top: 0.5em;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  .edit input[type=submit]:hover {
+    background-color: #45a049;
+  }

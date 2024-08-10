@@ -1,0 +1,20 @@
+.up{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIvuIdnzBp3cYUjcWtnyrlxIp9uL84pqbLsg&s);
+    background-size: 100% auto;
+    min-height: 135px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .home {
+    background-color: rgb(230, 254, 9);
+  }
+  nav {
+    margin-left: auto;
+  }
+  .nava {
+    padding: 1em;
+    margin: 5em 0 0 0;
+    display: flex; 
+    float: right;
+    gap: 1em;
+  }

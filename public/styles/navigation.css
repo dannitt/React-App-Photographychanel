@@ -1,0 +1,52 @@
+body {
+    background: none;
+}
+header, 
+footer {
+    background-color: gray;
+    width: 100px;
+    overflow: hidden;
+    color: aliceblue;
+}
+.home {
+    font-size: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    position: relative;
+    padding: 10px;
+}
+header h1 {
+    display: inline-block;
+    background-color: beige;
+    color: black;
+    margin-bottom: auto;
+}
+header nav {
+    font-size: auto;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+header nav>* {
+    float: left;
+}
+footer {
+    padding: 0.5em;
+    width:100;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+nav a {
+    margin: 0 0.5em;
+}
+nav a:hover {
+    cursor: pointer;
+    color: blueviolet;
+    font-weight: bolder;
+}
+.home:hover {
+    color: blueviolet;  
+}

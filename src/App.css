@@ -1,0 +1,14 @@
+* {
+  padding: 10;
+  margin: 10;
+  box-sizing: inherit;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(181, 216, 255);
+  padding: 10px 20px;
+  align-items: baseline;
+  margin-top: auto;
+}
